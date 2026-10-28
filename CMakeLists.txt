@@ -35,4 +35,4 @@ target_link_libraries(pico_ir_keyboard LINK_PUBLIC
 
 pico_add_extra_outputs(pico_ir_keyboard)
 
-family_configure_device_example(pico_ir_keyboard)
+family_configure_device_example(pico_ir_keyboard noos)
